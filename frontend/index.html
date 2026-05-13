@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNova</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+    <h2 class="logo">ShopVerse</h2>
+
+    <div class="search-section">
+
+        <a href="index.html">
+            <i class="fa-solid fa-house home-icon"></i>
+        </a>
+
+        <input
+            type="text"
+            placeholder="Search products..."
+            class="search-bar"
+        >
+
+    </div>
+
+    <div class="nav-icons">
+
+        <button id="darkModeBtn">
+            🌙
+        </button>
+
+        <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+    </div>
+
+</nav>
+
+
+    <!-- SALE BANNER -->
+
+    <section class="banner">
+
+        <div class="banner-content">
+
+            <h1>MEGA SALE 50% OFF</h1>
+
+            <p>Best Deals on Shoes, Watches & Electronics</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="categories">
+
+        <h2>Categories</h2>
+
+        <div class="category-container">
+
+            <div class="category-card" onclick="openCategory('Shoes')">
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="">
+
+                <h3>Shoes</h3>
+
+            </div>
+
+            <div class="category-card" onclick="openCategory('Watches')">
+
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="">
+
+                <h3>Watches</h3>
+
+            </div>
+
+            <div class="category-card" onclick="openCategory('Electronics')">
+
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="">
+
+                <h3>Electronics</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+
+    <section class="products">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-container" id="productContainer">
+
+        </div>
+
+    </section>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
